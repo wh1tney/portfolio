@@ -21,6 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    height:100%;
 }
 
 /*
@@ -97,10 +98,42 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header {
+	text-align:center;
+}
 
+body {
+	min-height: 100%;
+}
 
+main {
+	height: 100%;
+}
 
+footer {
+	bottom:0;
+}
 
+div#intro {
+	background-color: cyan;
+	min-height: 75vh;
+	padding:10% 10% 0 10%;	
+}
+
+div#details {
+	background-color: pink;
+	min-height:80vh;
+	padding:1px;
+}
+
+.listing {
+	width:650px;
+	margin:0 auto;
+}
+
+.listing span {
+	float:right;
+}
 
 
 
