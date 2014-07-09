@@ -126,6 +126,10 @@ footer {
 	bottom:0;
 }
 
+i {
+	margin-top:10%;
+}
+
 div#intro {
 	background-image: url(../img/3.jpg);
 	background-position: center center;
@@ -133,7 +137,7 @@ div#intro {
 	background-size: cover;
 	position:fixed;
 	width:100%;
-	min-height: 80vh;
+	min-height: 90vh;
 	padding:5% 10% 0 10%;
 	box-shadow: inset 0px -5px 50px black;
 }
@@ -149,11 +153,12 @@ div#details {
 	background-color: #76d0b9;
 	/* 	background-color: #5e5c90; */
 	position:relative;
-	top:80%;
+	top:90%;
 	float:left;
 	width:100%;
 	min-height:100vh;
 	padding-top:11%;
+	box-shadow: inset 0px 20px 80px #353535;
 	}
 
 .listing {
