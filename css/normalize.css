@@ -3,6 +3,12 @@
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
+   
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+	-moz-box-sizing: border-box; /* Needed for Firefox */
+	box-sizing: border-box;
+}
 
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
