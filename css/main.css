@@ -102,6 +102,10 @@ header {
 	text-align:center;
 }
 
+header h1 {
+	font-size: x-large;
+}
+
 header img.rainbow {
 	position: absolute;
 	top: 0px;
@@ -156,19 +160,28 @@ div#details {
 	top:90%;
 	float:left;
 	width:100%;
-	min-height:100vh;
-	padding-top:11%;
-	box-shadow: inset 0px 20px 80px #353535;
-	}
+	min-height:90vh;
+	padding:5% 0;
+}
+
+.content {
+	margin:0 auto;	
+}
 
 .listing {
-	width:650px;
+	width:40%;
 	margin:0 auto;
 }
 
 .listing span {
 	float:right;
+	color: #33383a;
 }
+
+.listing a {
+	font-size: larger;
+}
+
 
 
 
