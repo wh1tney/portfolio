@@ -22,6 +22,29 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+/*
+$(document).ready(function(){
+	$("a")
+     .filter(function() {   // apply filter() to for exact text matching
+          return $(this).attr("href") == '#display';
+     }).click(function(e) {
+          // To prevent page reload you need .preventDefault()
+          e.preventDefault();
+          $('#details').addClass('focused');
+     });
+     
+   $(window).bind('scroll', function() {
+   var navHeight = $( window ).height() - 70;
+         if ($(window).scrollTop() > navHeight) {
+             $('#details').addClass('focused');
+         }
+         else {
+             $('#details').removeClass('focused');
+         }
+    });
+});
+*/
+
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
