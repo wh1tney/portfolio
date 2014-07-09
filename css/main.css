@@ -114,6 +114,10 @@ header img.rainbow {
 	height: 2px;
 }
 
+header li {
+	display:inline;
+}
+
 body {
 	height: 100vh;
 	color:#fff;
