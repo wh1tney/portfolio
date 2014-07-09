@@ -105,6 +105,7 @@ header {
 body {
 	height: 100vh;
 	color:#fff;
+	font-family: 'Open Sans', sans-serif;
 }
 
 main {
