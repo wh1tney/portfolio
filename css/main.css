@@ -21,7 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    height:100%;
+    height:100vh;
 }
 
 /*
@@ -103,26 +103,35 @@ header {
 }
 
 body {
-	min-height: 100%;
+	height: 100vh;
+	color:#fff;
 }
 
 main {
-	height: 100%;
+	height: 100vh;
 }
 
 footer {
+	clear:both;
+	position:absolute;
 	bottom:0;
 }
 
 div#intro {
-	background-color: cyan;
+	background-color: #5e5c90;
+	position:fixed;
+	width:100%;
 	min-height: 75vh;
 	padding:5% 10% 0 10%;	
 }
 
 div#details {
-	background-color: pink;
-	min-height:80vh;
+	background-color: #76d0b9;
+	position:relative;
+	top:75%;
+	float:left;
+	width:100%;
+	min-height:100vh;
 	padding:1px;
 }
 
