@@ -172,8 +172,14 @@ div#details {
 }
 
 div#details header {
-	font-size:2.5em;
 	margin-bottom: 5px;
+}
+
+div#details header h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size:5em;
+	font-weight: 100;
+	font-style: normal;
 }
 
 .content {
