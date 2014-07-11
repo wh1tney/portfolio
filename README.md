@@ -7,3 +7,4 @@ This is a website I built to learn the following:
 - Bootstrap 3 (integration / glyphicons only) 
 - jQuery (plugins / animations)
 - Heroku (deployment to production server)
+- Git (branching)
