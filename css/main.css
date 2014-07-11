@@ -166,7 +166,7 @@ div#details {
 	position:relative;
 	top:90%;
 	float:left;
-	width:100%;
+	min-width:100%;
 	min-height:80vh;
 	padding:2% 0 5% 0;
 	border-bottom: 6px solid aliceblue;
@@ -192,13 +192,14 @@ div#details header h1 {
 }
 
 .listing {
-	width:40%;
+	width:75%;
 	margin:0 auto;
 }
 
 .listing span {
 	float:right;
 	color: #33383a;
+	font-size: smaller;
 }
 
 .listing a {
